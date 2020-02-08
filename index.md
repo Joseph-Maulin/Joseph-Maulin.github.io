@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width"/>
   <meta charset="UTF-8">
 
-  <link href="main.css" rel="stylesheet"></link>
+  <link> href="main.css" rel="stylesheet"></link>
 </head>
 
 <h1 id="name_title">Joseph Maulin</h1>
