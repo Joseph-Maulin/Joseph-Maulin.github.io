@@ -9,6 +9,8 @@
   <link href="main.css" rel="stylesheet"></link>
 </head>
 
+<h1 id="name_title">Joseph Maulin</h1>
+
 <h1>Data Scientist</h1>
 
 
