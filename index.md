@@ -1,8 +1,7 @@
-<h1>Hello!</h1>
+<h1>Data Scientist</h1>
 
-### Data Scientist
 
-I'm a data scientist in Indiana. I help DESIRED CLIENTS with DESIRED DATA SCIENCE SPECIALTY.
+<h2>I'm a data scientist in Indiana. I help future-sighted clients with machine learning and data analytics.</h2>
 
 ### Contact
 - [Email](mailto:Joseph.L.Maulin@gmail.com)
