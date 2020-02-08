@@ -7,13 +7,6 @@
   <meta charset="UTF-8">
 
   <link href="main.css" rel="stylesheet"></link>
-
-  {% if title %}
-    <title>Sql_API_Testing - {{title}}</title>
-  {% else %}
-    <title>Sql_API_Testing</title>
-  {% endif %}
-
 </head>
 
 <h1>Data Scientist</h1>
