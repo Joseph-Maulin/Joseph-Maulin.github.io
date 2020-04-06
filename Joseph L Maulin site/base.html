@@ -1,0 +1,29 @@
+{% extends "bootstrap/base.html" %}
+
+{% block title %}Joseph L Maulin{% endblock %}
+
+{% block head %}
+<head>
+<meta name="keywords" content="Joseph Maulin Page"/>
+<meta name="author" content="Joseph Maulin"/>
+<meta name="description" content="A blog and portfolio"/>
+<meta name="viewport" content="width=device-width"/>
+<meta charset="UTF-8"/>
+
+<link rel="stylesheet" type="text/css" href="main.css"/>
+</head>
+{% endblock %}
+
+{% block navbar %}
+<nav>
+    <a href='index.html'>Home</a>
+    <a href='about.html'>About</a>
+    <a href='projects.html'>Projects</a>
+</nav>
+{% endblock %}
+
+<body>
+  {% block content %}
+  <h2> This is the blog </h2>
+  {% endblock %}
+</body>
