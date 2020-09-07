@@ -14,6 +14,10 @@
   width:40%;
 }
 
+#wgups_pic{
+ width:40%;
+}
+
 
 /* Add a black background color to the top navigation */
 
@@ -63,11 +67,33 @@ body{
   margin:auto;
 }
 
+.Blog_Post a{
+  color : #222;
+  font: sans-serif;
+  text-decoration: None;
+}
+
 .Blog_Post a:hover{
   background-color: #ddd;
   color: black;
 }
 
+.WGUPS{
+  padding:40px;
+  max-width: 700px;
+  margin:auto;
+}
+
+.WGUPS a{
+  color : #222;
+  font: sans-serif;
+  text-decoration: None;
+}
+
+.WGUPS a:hover{
+  background-color: #ddd;
+  color: black;
+}
 
 .sticky {
   position: fixed;
@@ -77,12 +103,6 @@ body{
 
 .sticky + .content{
   padding-top: 60px;
-}
-
-.Blog_Post a{
-  color : #222;
-  font: sans-serif;
-  text-decoration: None;
 }
 
 .contact {
