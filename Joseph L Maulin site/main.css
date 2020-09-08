@@ -166,6 +166,12 @@ body{
   background:none;
 }
 
+
+#email-button a{
+  border:none;
+  background:none;
+}
+
 #email-button a:hover{
   border: 2px solid black;
 }
