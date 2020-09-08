@@ -161,12 +161,13 @@ body{
   width:50px;
 }
 
-#email-button a{
+#email-button {
   border:none;
   background:none;
 }
 
 #email-button a:hover{
+  border: 2px solid black;
 }
 
 #github-image{
