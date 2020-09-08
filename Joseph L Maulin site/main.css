@@ -52,7 +52,7 @@
 }
 
 /* Add a color to the active/current link */
-.navBar a.active {
+.navBar a:active {
   background-color: #4CAF50;
   color: white;
 }
@@ -75,11 +75,15 @@ body{
   margin:auto;
   font: sans-serif;
   text-decoration: None;
+  color: black;
+}
+
+.Blog_Post a{
+ color: black; 
 }
 
 .Blog_Post:hover{
   background-color: #E8E8E8;
-  color: black;
 }
 
 .WGUPS{
@@ -148,6 +152,11 @@ body{
   width:50px;
 }
 
+#email-icon:hover{
+  height:55px;
+  width:55px;
+}
+
 #email-button {
   border:none;
   background:none;
@@ -159,9 +168,6 @@ body{
   background:none;
 }
 
-#email-button:hover{
-  border: 2px solid black;
-}
 
 #github-image{
   margin:15px;
@@ -170,17 +176,19 @@ body{
 }
 
 #github-image:hover{
-  border: 2px solid black;
+  height:55px;
+  width:103px;
 }
 
 #linkedin{
   margin:15px;
-  height:50px;
-  width:50px;
+  height:40px;
+  width:40px;
 }
 
 #linkedin:hover{
-  border: 2px solid black;
+  height:45px;
+  width:45px;
 }
 
 .footer_break{
