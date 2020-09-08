@@ -56,8 +56,9 @@
             document.getSelection().rangeCount > 0 ? document.getSelection().getRangeAt(0) : false;
           email.select();
           document.execCommand('copy');
-          a = setTimeout(function(){alert("Email Copied");}, 2000);
-          clearTimeout(a);
+          var copyAlert = alert("Email Copied");
+          setTimeout(clearTimeout(copyAlert), 2000);
+          alert("Email Copied");
           document.body.removeChild(email);
           if (selected) {
             document.getSelection().removeAllRanges();
