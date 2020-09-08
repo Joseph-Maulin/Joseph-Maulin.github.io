@@ -76,13 +76,12 @@ body{
 }
 
 .Blog_Post a{
-  color : #222;
   font: sans-serif;
   text-decoration: None;
 }
 
 .Blog_Post a:hover{
-  background-color: #ddd;
+  background-color: #E8E8E8;
   color: black;
 }
 
@@ -99,7 +98,7 @@ body{
 }
 
 .WGUPS a:hover{
-  background-color: #ddd;
+  background-color: #E8E8E8;
   color: black;
 }
 
@@ -116,7 +115,7 @@ body{
 }
 
 .Appointment_Scheduler a:hover{
-  background-color: #ddd;
+  background-color: #E8E8E8;
   color: black;
 }
 
@@ -133,7 +132,7 @@ body{
 }
 
 .Class_Roster a:hover{
-  background-color: #ddd;
+  background-color: #E8E8E8;
   color: black;
 }
 
