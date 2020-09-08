@@ -48,9 +48,12 @@
   function copyToClipboard() {
   /* Get the text field */
   var copyText = "joseph.l.maulin@gmail.com";
-
-  /* Copy the text inside the text field */
-  document.execCommand("copy");
+  const text = document.createElement('textarea');
+  text.value = copyText;
+  document.body.appendChild(text);
+  text.select();
+  document.execCommand('copy');
+  document.body.removeChild(text);
 
   /* Alert the copied text */
   alert("Email copied to clipboard: " + copyText);
