@@ -91,42 +91,54 @@ body{
   padding:40px;
   max-width: 700px;
   margin:auto;
-  color : #222;
   font: sans-serif;
   text-decoration: None;
+  color: black;
+}
+
+.WGUPS a{
+ color: black;
+ text-decoration:None;
 }
 
 .WGUPS:hover{
   background-color: #E8E8E8;
-  color: black;
 }
 
 .Appointment_Scheduler{
   padding:40px;
   max-width: 700px;
   margin:auto;
-  color : #222;
   font: sans-serif;
   text-decoration: None;
+  color: black;
+}
+
+.Appointment_Scheduler a{
+ color: black;
+ text-decoration:None;
 }
 
 .Appointment_Scheduler:hover{
   background-color: #E8E8E8;
-  color: black;
 }
 
 .Class_Roster{
   padding:40px;
   max-width: 700px;
   margin:auto;
-  color : #222;
   font: sans-serif;
   text-decoration: None;
+  color: black;
+}
+
+.Class_Roster a{
+ color: black;
+ text-decoration:None;
 }
 
 .Class_Roster:hover{
   background-color: #E8E8E8;
-  color: black;
 }
 
 .sticky {
