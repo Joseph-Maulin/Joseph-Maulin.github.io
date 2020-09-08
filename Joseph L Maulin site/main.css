@@ -79,7 +79,8 @@ body{
 }
 
 .Blog_Post a{
- color: black; 
+ color: black;
+ text-decoration:None;
 }
 
 .Blog_Post:hover{
