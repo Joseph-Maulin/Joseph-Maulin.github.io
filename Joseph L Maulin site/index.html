@@ -30,10 +30,27 @@
 
 
   <div class = "footer_break"><hr></div>
+  
+  <script>
+  function copyToClipboard() {
+  /* Get the text field */
+  var copyText = joseph.l.maulin@gmail.com;
+
+  /* Select the text field */
+  copyText.select();
+  copyText.setSelectionRange(0, 99999); /*For mobile devices*/
+
+  /* Copy the text inside the text field */
+  document.execCommand("copy");
+
+  /* Alert the copied text */
+  alert("Email copied to clipboard: " + copyText.value);
+  }
+  </script>
 
   <div class="contact">
     <div class="email">
-      <a href="mailto: joseph.l.maulin@gmail.com"><img id="email-icon" src="email-icon.png"></a>
+      <a href="mailto: joseph.l.maulin@gmail.com"><img id="email-icon" src="email-icon.png" onclick="copyToClipboard()"></a>
     </div>
     <div class="github">
       <a href="https://github.com/Joseph-Maulin?tab=repositories" target="_blank"><img id="github-image" src="github-image.png"></a>
