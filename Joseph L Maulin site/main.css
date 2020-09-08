@@ -18,6 +18,14 @@
  width:40%;
 }
 
+#appointment_scheduler_pic{
+  width:40%;
+}
+
+#class_roster_pic{
+  width:40%;
+}
+
 
 /* Add a black background color to the top navigation */
 
@@ -91,6 +99,40 @@ body{
 }
 
 .WGUPS a:hover{
+  background-color: #ddd;
+  color: black;
+}
+
+.Appointment_Scheduler{
+  padding:40px;
+  max-width: 700px;
+  margin:auto;
+}
+
+.Appointment_Scheduler a{
+  color : #222;
+  font: sans-serif;
+  text-decoration: None;
+}
+
+.Appointment_Scheduler a:hover{
+  background-color: #ddd;
+  color: black;
+}
+
+.Class_Roster{
+  padding:40px;
+  max-width: 700px;
+  margin:auto;
+}
+
+.Class_Roster a{
+  color : #222;
+  font: sans-serif;
+  text-decoration: None;
+}
+
+.Class_Roster a:hover{
   background-color: #ddd;
   color: black;
 }
