@@ -46,17 +46,18 @@
     
   <script>
       function copyToClipboard(){
-          const el = document.createElement('textarea');
-          el.value = "joseph.l.maulin@gmail.com";
-          el.setAttribute('readonly', '');
-          el.style.position = 'absolute';
-          el.style.left = '-9999px';
-          document.body.appendChild(el);
+          const email = document.createElement('textarea');
+          email.value = "joseph.l.maulin@gmail.com";
+          email.setAttribute('readonly', '');
+          email.style.position = 'absolute';
+          email.style.left = '-9999px';
+          document.body.appendChild(email);
           const selected =
             document.getSelection().rangeCount > 0 ? document.getSelection().getRangeAt(0) : false;
-          el.select();
+          email.select();
           document.execCommand('copy');
-          document.body.removeChild(el);
+          alert("Email Copied");
+          document.body.removeChild(email);
           if (selected) {
             document.getSelection().removeAllRanges();
             document.getSelection().addRange(selected);
