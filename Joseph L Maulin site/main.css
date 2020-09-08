@@ -73,14 +73,11 @@ body{
   padding:40px;
   max-width: 700px;
   margin:auto;
-}
-
-.Blog_Post a{
   font: sans-serif;
   text-decoration: None;
 }
 
-.Blog_Post a:hover{
+.Blog_Post:hover{
   background-color: #E8E8E8;
   color: black;
 }
@@ -89,15 +86,12 @@ body{
   padding:40px;
   max-width: 700px;
   margin:auto;
-}
-
-.WGUPS a{
   color : #222;
   font: sans-serif;
   text-decoration: None;
 }
 
-.WGUPS a:hover{
+.WGUPS:hover{
   background-color: #E8E8E8;
   color: black;
 }
@@ -106,15 +100,12 @@ body{
   padding:40px;
   max-width: 700px;
   margin:auto;
-}
-
-.Appointment_Scheduler a{
   color : #222;
   font: sans-serif;
   text-decoration: None;
 }
 
-.Appointment_Scheduler a:hover{
+.Appointment_Scheduler:hover{
   background-color: #E8E8E8;
   color: black;
 }
@@ -123,15 +114,12 @@ body{
   padding:40px;
   max-width: 700px;
   margin:auto;
-}
-
-.Class_Roster a{
   color : #222;
   font: sans-serif;
   text-decoration: None;
 }
 
-.Class_Roster a:hover{
+.Class_Roster:hover{
   background-color: #E8E8E8;
   color: black;
 }
@@ -166,12 +154,12 @@ body{
 }
 
 
-#email-button a{
+#email-button{
   border:none;
   background:none;
 }
 
-#email-button a:hover{
+#email-button:hover{
   border: 2px solid black;
 }
 
@@ -181,7 +169,7 @@ body{
   width:100px;
 }
 
-#github-image a:hover{
+#github-image:hover{
   border: 2px solid black;
 }
 
@@ -191,7 +179,7 @@ body{
   width:50px;
 }
 
-#linkedin a:hover{
+#linkedin:hover{
   border: 2px solid black;
 }
 
