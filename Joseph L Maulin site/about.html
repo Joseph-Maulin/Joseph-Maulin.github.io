@@ -50,7 +50,7 @@
 
 <div class="contact">
     <div class="email">
-      <a href="mailto: joseph.l.maulin@gmail.com"><img id="email-icon" src="email-icon.png"></a>
+      <button id="email-button" onclick="copyToClipboard()"><img id="email-icon" src="email-icon.png"></button>
     </div>
     <div class="github">
       <a href="https://github.com/Joseph-Maulin?tab=repositories" target="_blank"><img id="github-image" src="github-image.png"></a>
@@ -59,5 +59,28 @@
       <a href="https://www.linkedin.com/in/joe-maulin/" target="_blank"><img id="linkedin" src="linked_in.png"></a>
     </div>  
  </div>
+    
+  <script>
+      function copyToClipboard(){
+          const email = document.createElement('textarea');
+          email.value = "joseph.l.maulin@gmail.com";
+          email.setAttribute('readonly', '');
+          email.style.position = 'absolute';
+          email.style.left = '-9999px';
+          document.body.appendChild(email);
+          const selected =
+            document.getSelection().rangeCount > 0 ? document.getSelection().getRangeAt(0) : false;
+          email.select();
+          document.execCommand('copy');
+          var copyAlert = alert("Email Copied");
+          
+          setTimeout(clearTimeout(copyAlert), 2000);
+          document.body.removeChild(email);
+          if (selected) {
+            document.getSelection().removeAllRanges();
+            document.getSelection().addRange(selected);
+            }
+      }
+  </script>
 
 </html>
