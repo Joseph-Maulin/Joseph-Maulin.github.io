@@ -102,7 +102,7 @@ body{
   text-decoration: None;
   color: black;
   margin:auto;
-  justify-content: center;
+  text-align: center;
 }
 
 .Sudoku_Solver{
@@ -110,7 +110,7 @@ body{
   text-decoration: None;
   color: black;
   margin:auto;
-  justify-content: center;
+  text-align: center;
 }
 
 .Path_Finder{
@@ -118,7 +118,7 @@ body{
   text-decoration: None;
   color: black;
   margin:auto;
-  justify-content: center;
+  text-align: center;
 }
 
 .Blog_Post{
@@ -126,7 +126,7 @@ body{
   text-decoration: None;
   color: black;
   margin:auto;
-  justify-content: center;
+  text-align: center;
 }
 
 .WGUPS{
@@ -134,7 +134,7 @@ body{
   text-decoration: None;
   color: black;
   margin:auto;
-  justify-content: center;
+  text-align: center;
 }
 
 .Appointment_Scheduler{
@@ -142,7 +142,7 @@ body{
   text-decoration: None;
   color: black;
   margin:auto;
-  justify-content: center;
+  text-align: center;
 }
 
 .Class_Roster{
@@ -150,7 +150,7 @@ body{
   text-decoration: None;
   color: black;
   margin:auto;
-  justify-content: center;
+  text-align: center;
 }
 
 .sticky {
