@@ -74,6 +74,33 @@ body{
   font-family:sans-serif;
 }
 
+.Reddit_Post_Classifier{
+  padding:40px;
+  max-width: 700px;
+  margin:auto;
+  font: sans-serif;
+  text-decoration: None;
+  color: black;
+}
+
+.Sudoku_Solver{
+  padding:40px;
+  max-width: 700px;
+  margin:auto;
+  font: sans-serif;
+  text-decoration: None;
+  color: black;
+}
+
+.Path_Finder{
+  padding:40px;
+  max-width: 700px;
+  margin:auto;
+  font: sans-serif;
+  text-decoration: None;
+  color: black;
+}
+
 .Blog_Post{
   padding:40px;
   max-width: 700px;
