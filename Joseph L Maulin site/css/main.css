@@ -76,7 +76,10 @@ body{
 body a{
   color: black;
   text-decoration: None;
-  margin: auto;
+  padding:40px;
+  max-width: 700px;
+  margin:auto;
+  justify-content: center;
 }
 
 body a:hover{
@@ -90,71 +93,47 @@ body a:hover{
 }
 
 .Introduction{
-  padding:40px;
-  max-width: 700px;
-  margin:auto;
   font-size: 40px;
   font-family:sans-serif;
 }
 
 .Reddit_Post_Classifier{
-  padding:40px;
-  max-width: 700px;
-  margin:auto;
   font: sans-serif;
   text-decoration: None;
   color: black;
 }
 
 .Sudoku_Solver{
-  padding:40px;
-  max-width: 700px;
-  margin:auto;
   font: sans-serif;
   text-decoration: None;
   color: black;
 }
 
 .Path_Finder{
-  padding:40px;
-  max-width: 700px;
-  margin:auto;
   font: sans-serif;
   text-decoration: None;
   color: black;
 }
 
 .Blog_Post{
-  padding:40px;
-  max-width: 700px;
-  margin:auto;
   font: sans-serif;
   text-decoration: None;
   color: black;
 }
 
 .WGUPS{
-  padding:40px;
-  max-width: 700px;
-  margin:auto;
   font: sans-serif;
   text-decoration: None;
   color: black;
 }
 
 .Appointment_Scheduler{
-  padding:40px;
-  max-width: 700px;
-  margin:auto;
   font: sans-serif;
   text-decoration: None;
   color: black;
 }
 
 .Class_Roster{
-  padding:40px;
-  max-width: 700px;
-  margin:auto;
   font: sans-serif;
   text-decoration: None;
   color: black;
