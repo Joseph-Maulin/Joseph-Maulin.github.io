@@ -74,8 +74,9 @@ body{
 }
 
 .project-flex{
- display:flex;
+  display:flex;
   flex-wrap:wrap;
+  justify-content: center;
 }
 
 .Introduction{
@@ -98,6 +99,7 @@ body{
 .Reddit_Post_Classifier a{
   color: black;
   text-decoration: None;
+  margin: auto;
 }
 
 .Reddit_Post_Classifier:hover{
