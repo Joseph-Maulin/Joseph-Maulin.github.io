@@ -73,6 +73,16 @@ body{
   padding:16px;
 }
 
+body a{
+  color: black;
+  text-decoration: None;
+  margin: auto;
+}
+
+body a:hover{
+  background-color: #E8E8E8;
+}
+
 .project-flex{
   display:flex;
   flex-wrap:wrap;
@@ -96,16 +106,6 @@ body{
   color: black;
 }
 
-.Reddit_Post_Classifier a{
-  color: black;
-  text-decoration: None;
-  margin: auto;
-}
-
-.Reddit_Post_Classifier:hover{
-  background-color: #E8E8E8;
-}
-
 .Sudoku_Solver{
   padding:40px;
   max-width: 700px;
@@ -113,15 +113,6 @@ body{
   font: sans-serif;
   text-decoration: None;
   color: black;
-}
-
-.Sudoku_Solver a{
-  color: black;
-  text-decoration: None;
-}
-
-.Sudoku_Solver:hover{
-  background-color: #E8E8E8;
 }
 
 .Path_Finder{
@@ -133,15 +124,6 @@ body{
   color: black;
 }
 
-.Path_Finder a{
-  color: black;
-  text-decoration: None;
-}
-
-.Path_Finder:hover{
-  background-color: #E8E8E8;
-}
-
 .Blog_Post{
   padding:40px;
   max-width: 700px;
@@ -149,15 +131,6 @@ body{
   font: sans-serif;
   text-decoration: None;
   color: black;
-}
-
-.Blog_Post a{
- color: black;
- text-decoration:None;
-}
-
-.Blog_Post:hover{
-  background-color: #E8E8E8;
 }
 
 .WGUPS{
@@ -169,15 +142,6 @@ body{
   color: black;
 }
 
-.WGUPS a{
- color: black;
- text-decoration:None;
-}
-
-.WGUPS:hover{
-  background-color: #E8E8E8;
-}
-
 .Appointment_Scheduler{
   padding:40px;
   max-width: 700px;
@@ -187,15 +151,6 @@ body{
   color: black;
 }
 
-.Appointment_Scheduler a{
- color: black;
- text-decoration:None;
-}
-
-.Appointment_Scheduler:hover{
-  background-color: #E8E8E8;
-}
-
 .Class_Roster{
   padding:40px;
   max-width: 700px;
@@ -203,15 +158,6 @@ body{
   font: sans-serif;
   text-decoration: None;
   color: black;
-}
-
-.Class_Roster a{
- color: black;
- text-decoration:None;
-}
-
-.Class_Roster:hover{
-  background-color: #E8E8E8;
 }
 
 .sticky {
