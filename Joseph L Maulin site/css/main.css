@@ -73,16 +73,14 @@ body{
   padding:16px;
 }
 
-body a{
+.a_project{
   color: black;
   text-decoration: None;
   padding:40px;
   max-width: 700px;
-  margin:auto;
-  justify-content: center;
 }
 
-body a:hover{
+.a_project:hover{
   background-color: #E8E8E8;
 }
 
@@ -95,48 +93,64 @@ body a:hover{
 .Introduction{
   font-size: 40px;
   font-family:sans-serif;
+  margin:auto;
+  justify-content: center;
 }
 
 .Reddit_Post_Classifier{
   font: sans-serif;
   text-decoration: None;
   color: black;
+  margin:auto;
+  justify-content: center;
 }
 
 .Sudoku_Solver{
   font: sans-serif;
   text-decoration: None;
   color: black;
+  margin:auto;
+  justify-content: center;
 }
 
 .Path_Finder{
   font: sans-serif;
   text-decoration: None;
   color: black;
+  margin:auto;
+  justify-content: center;
 }
 
 .Blog_Post{
   font: sans-serif;
   text-decoration: None;
   color: black;
+  margin:auto;
+  justify-content: center;
 }
 
 .WGUPS{
   font: sans-serif;
   text-decoration: None;
   color: black;
+  margin:auto;
+  justify-content: center;
 }
 
 .Appointment_Scheduler{
   font: sans-serif;
   text-decoration: None;
   color: black;
+  margin:auto;
+  justify-content: center;
 }
 
 .Class_Roster{
   font: sans-serif;
   text-decoration: None;
   color: black;
+  margin:auto;
+  justify-content: center;
 }
 
 .sticky {
