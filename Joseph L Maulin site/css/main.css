@@ -95,6 +95,15 @@ body{
   color: black;
 }
 
+.Reddit_Post_Classifier a{
+  color: black;
+  text-decoration: None;
+}
+
+.Reddit_Post_Classifier:hover{
+  background-color: #E8E8E8;
+}
+
 .Sudoku_Solver{
   padding:40px;
   max-width: 700px;
@@ -104,6 +113,15 @@ body{
   color: black;
 }
 
+.Sudoku_Solver a{
+  color: black;
+  text-decoration: None;
+}
+
+.Sudoku_Solver:hover{
+  background-color: #E8E8E8;
+}
+
 .Path_Finder{
   padding:40px;
   max-width: 700px;
@@ -111,6 +129,15 @@ body{
   font: sans-serif;
   text-decoration: None;
   color: black;
+}
+
+.Path_Finder a{
+  color: black;
+  text-decoration: None;
+}
+
+.Path_Finder:hover{
+  background-color: #E8E8E8;
 }
 
 .Blog_Post{
